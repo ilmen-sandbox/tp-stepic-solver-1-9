@@ -6,6 +6,9 @@
 #    start_response(status, response_headers)
 #    options = environ['QUERY_STRING'].split("&")
 #    return [i+'\n' for i in options]
+
+bind = '0.0.0.0:8080'
+
 def app (environ,start_response):
     status = '200 OK'
     headers= [('Content-type','text/plain')]
