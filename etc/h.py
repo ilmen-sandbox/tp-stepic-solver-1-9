@@ -1,5 +1,5 @@
 import multiprocessing
 
 bind = "0.0.0.0:8080"
-workers = 16
+workers = 4
 working_dir = '/home/box/web/hello.py'
